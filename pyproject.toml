@@ -1,0 +1,15 @@
+[project]
+name = "kyusu-nodes"
+description = "A collection of utility nodes for ComfyUI to build and manage prompts and route inputs — including prompt appending, commenting, input switches, and list inputs."
+version = "1.0.0"
+license = "MIT"
+
+[project.urls]
+Repository = "https://github.com/TaIIo4KuH/kyusu-nodes"
+
+#  Used by Comfy Registry https://registry.comfy.org
+[tool.comfy]
+PublisherId = "kyusu69"
+DisplayName = "Kyusu Nodes"
+Icon = ""
+includes = []
