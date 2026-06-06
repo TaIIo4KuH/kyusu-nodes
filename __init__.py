@@ -1,0 +1,10 @@
+from .prompt_commenter import NODE_CLASS_MAPPINGS as C, NODE_DISPLAY_NAME_MAPPINGS as CD
+from .prompt_appender import NODE_CLASS_MAPPINGS as A, NODE_DISPLAY_NAME_MAPPINGS as AD
+from .prompt_ultimacha import NODE_CLASS_MAPPINGS as U, NODE_DISPLAY_NAME_MAPPINGS as UD
+from .input_switches import NODE_CLASS_MAPPINGS as S, NODE_DISPLAY_NAME_MAPPINGS as SD
+from .input_lists import NODE_CLASS_MAPPINGS as L, NODE_DISPLAY_NAME_MAPPINGS as LD
+
+NODE_CLASS_MAPPINGS = {**C, **A, **U, **S, **L}
+NODE_DISPLAY_NAME_MAPPINGS = {**CD, **AD, **UD, **SD, **LD}
+
+__all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
